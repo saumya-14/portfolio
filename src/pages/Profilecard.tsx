@@ -8,33 +8,38 @@ const poppins = Poppins({
 
 const Profilecard = () => {
   return (
-    <div className={`${poppins.className} bg-white text-center rounded-2xl p-6  w-auto shadow-lg transform transition duration-300 hover:scale-105`}>
+    <div
+      className={`${poppins.className} bg-white text-center rounded-2xl shadow-lg transform transition duration-300 md:w-full hover:scale-105   lg:max-w-[500px] p-6 sm:p-8 flex flex-col items-center`}
+    >
       {/* Profile Image */}
-      <div className="relative mt-1 z-0">
+      <div className="relative">
         <Image
-          src="/image2.jpg" // Replace with your image path
+          src="/profile.jpg" // Replace with your image path
           alt="Profile Image"
-          width={250}
-          height={250}
-          className="rounded-lg mx-auto"
+          width={300}
+          height={300}
+          className="rounded-lg mx-auto object-cover"
         />
       </div>
 
       {/* Name */}
-      <h2 className="text-3xl font-bold text-black mt-4">SAUMYA SHRIVASTAVA</h2>
+      <h2 className="text-2xl lg:text-3xl font-bold text-black mt-4">
+        SAUMYA SHRIVASTAVA
+      </h2>
 
       {/* Role Description */}
-      <div className="flex flex-col items-center justify-center mt-4 space-y-4">
-        <span className="text-gray-600 text-center text-lg">
-          A passionate web developer and competitive programming enthusiast, currently in my 3rd year at IIIT Ranchi. Driven by a love for code and a commitment to innovation.
-        </span>
-      </div>
+      <p className="text-gray-600 text-sm sm:text-base lg:text-lg mt-2 lg:mt-4 px-2 lg:px-6">
+        A passionate web developer and competitive programming enthusiast. Driven by a love for code and a commitment to innovation.
+      </p>
 
       {/* Social Media Icons */}
-      <div className="flex justify-center mt-4 space-x-4 text-orange-500">
-        <Image src='/instagram.svg' alt='Instagram' width={24} height={24} />
-        <Image src='/twiiter.svg' alt='Twitter' width={24} height={24} />
-        <Image src='/linkedin.svg' alt='LinkedIn' width={24} height={24} />
+      <div className="flex justify-center mt-4 space-x-6 lg:space-x-8 text-orange-500">
+        <Image src="/instagram.svg" alt="Instagram" width={28} height={28} />
+        <Image src="/twiiter.svg" alt="Twitter" width={28} height={28} />
+        <Image src="/linkedin.svg" alt="LinkedIn" width={28} height={28} />
+        <Image src="/github.svg" alt="github" width={28} height={28} />
+
+
       </div>
     </div>
   );

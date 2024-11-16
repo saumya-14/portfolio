@@ -1,6 +1,6 @@
 const Herosection = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center lg:items-start justify-center lg:justify-start mt-8 text-white px-4 sm:px-8 lg:px-0">
+    <div className="min-h-screen flex flex-col items-center lg:items-start justify-center lg:justify-start  mt-8 text-white px-4 sm:px-8 lg:px-0">
   {/* Title Section */}
   <div className="text-center lg:text-start mb-8">
     <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white">SOFTWARE</h1>
@@ -27,6 +27,12 @@ const Herosection = () => {
       <p className="text-[#6e6c6f] mt-2">WORLDWIDE</p>
       <p className="text-[#6e6c6f]">CLIENTS</p>
     </div>
+  </div>
+
+  <div className="text-center lg:text-start mt-14">
+    <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white">TECHSTACK</h1>
+    <h2 className="text-5xl sm:text-6xl md:text-8xl font-bold text-[#333235]">TOOLS</h2>
+
   </div>
 </div>
   );

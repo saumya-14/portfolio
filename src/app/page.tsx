@@ -10,7 +10,7 @@ export default function Home() {
   <div className="w-full lg:w-1/3 flex justify-center mt-4  mr-auto  md:mt-0">
     <Profilecard />
   </div>
-  <div className="w-full lg:w-2/3 flex justify-center ml-auto  mt-4 md:mt-0">
+  <div className="w-full lg:w-2/3 flex justify-center ml-auto mt-4 md:mt-0">
     <Herosection />
   </div>
 </div>
