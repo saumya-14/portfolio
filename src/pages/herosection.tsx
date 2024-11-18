@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Herosection = () => {
   return (
     <div className="min-h-screen flex flex-col items-center lg:items-start justify-center lg:justify-start  mt-8 text-white px-4 sm:px-8 lg:px-0">
@@ -32,6 +34,73 @@ const Herosection = () => {
   <div className="text-center lg:text-start mt-14">
     <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white">TECHSTACK</h1>
     <h2 className="text-5xl sm:text-6xl md:text-8xl font-bold text-[#333235]">TOOLS</h2>
+    <div className="flex flex-wrap sm:items-center lg:mt-9 mt-9 w-full  text-white p-6">
+  {/* Next.js */}
+  <div className="flex flex-row items-center w-full sm:w-1/2 lg:w-1/2 p-4">
+    <div className="bg-white rounded-xl flex items-center justify-center w-28 h-24">
+      <Image src="/nextjs.svg" alt="Next.js" height={100} width={100} className="m-2" />
+    </div>
+    <div className="flex flex-col text-start ml-6">
+      <p className="text-2xl font-poppins font-bold">Next.js</p>
+      <p className="text-[#6e6c6f] mt-1 font-poppins">React Framework</p>
+    </div>
+  </div>
+
+  {/* MongoDB */}
+  <div className="flex flex-row items-center w-full sm:w-1/2 lg:w-1/2 p-4">
+    <div className="bg-white rounded-xl flex items-center justify-center w-28 h-24">
+      <Image src="/mongodb.svg" alt="MongoDB" height={100} width={100} className="m-2" />
+    </div>
+    <div className="flex flex-col text-start ml-6">
+      <p className="text-2xl font-poppins font-bold">MongoDB</p>
+      <p className="text-[#6e6c6f] mt-1 font-poppins">Database</p>
+    </div>
+  </div>
+
+  {/* Express */}
+  <div className="flex flex-row items-center w-full sm:w-1/2 lg:w-1/2 p-4">
+    <div className="bg-white rounded-xl flex items-center justify-center w-28 h-24">
+      <Image src="/express.svg" alt="Express" height={100} width={100} className="m-2" />
+    </div>
+    <div className="flex flex-col text-start ml-6">
+      <p className="text-2xl font-poppins font-bold">Express</p>
+      <p className="text-[#6e6c6f] mt-1 font-poppins">Backend</p>
+    </div>
+  </div>
+
+  {/* Node.js */}
+  <div className="flex flex-row items-center w-full sm:w-1/2 lg:w-1/2 p-4">
+    <div className="bg-white rounded-xl flex items-center justify-center w-28 h-24">
+      <Image src="/node.svg" alt="Node.js" height={100} width={100} className="m-2" />
+    </div>
+    <div className="flex flex-col text-start ml-6">
+      <p className="text-2xl font-poppins font-bold">Node.js</p>
+      <p className="text-[#6e6c6f] mt-1 font-poppins">Backend</p>
+    </div>
+  </div>
+
+  {/* ChatGPT */}
+  <div className="flex flex-row items-center w-full sm:w-1/2 lg:w-1/2 p-4">
+    <div className="bg-white rounded-xl flex items-center justify-center w-28 h-24">
+      <Image src="/chatgpt.svg" alt="ChatGPT" height={100} width={100} className="m-2" />
+    </div>
+    <div className="flex flex-col text-start ml-6">
+      <p className="text-2xl font-poppins font-bold">ChatGPT</p>
+      <p className="text-[#6e6c6f] mt-1 font-poppins">Helping Tool</p>
+    </div>
+  </div>
+
+  {/* Tailwind CSS */}
+  <div className="flex flex-row items-center w-full sm:w-1/2 lg:w-1/2 p-4">
+    <div className="bg-white rounded-xl flex items-center justify-center w-28 h-24">
+      <Image src="/tailwind.svg" alt="Tailwind CSS" height={100} width={100} className="m-2" />
+    </div>
+    <div className="flex flex-col text-start ml-6">
+      <p className="text-2xl font-poppins font-bold">Tailwind</p>
+      <p className="text-[#6e6c6f] mt-1 font-poppins">Styling</p>
+    </div>
+  </div>
+</div>
 
   </div>
 </div>
