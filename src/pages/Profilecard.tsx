@@ -9,7 +9,7 @@ const poppins = Poppins({
 const Profilecard = () => {
   return (
     <div
-    className={`${poppins.className} bg-white  h-3/5  text-center rounded-2xl shadow-lg transform transition duration-300 hover:scale-105 lg:max-w-[500px] p-6 sm:p-8 flex flex-col items-center`}
+    className={`${poppins.className} bg-white  h-max  text-center rounded-2xl shadow-lg transform transition duration-300 hover:scale-105 lg:max-w-[500px] p-6 sm:p-8 flex flex-col items-center`}
   >
     {/* Profile Image */}
     <div className="relative ">

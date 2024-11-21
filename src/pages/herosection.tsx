@@ -103,6 +103,79 @@ const Herosection = () => {
 </div>
 
   </div>
+  <div className="text-center w-full lg:text-start mt-14">
+    <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white">ABOUT</h1>
+    <h2 className="text-5xl sm:text-6xl md:text-8xl font-bold text-[#333235]">ME</h2>
+    <div className="flex flex-col mt-4 ">
+      <div className=" hover:bg-[#221e1d]  rounded-xl h-auto mt-2 ">
+        {/* left */}
+         <div className="font-poppins text-start text-white text-3xl font-semibold m-4">
+         My Journey from School to IIIT Ranchi
+         </div>
+         <div className="text-[#a2a2a7] text-lg mt-2 font-poppins text-start m-4">
+         My passion for technology began in school, where I discovered coding and problem-solving. Now, as a 3rd-year student at IIIT Ranchi, I’m honing my skills in web development, competitive programming, and emerging technologies.
+         </div>
+         {/* right */}
+         <div>
+         
+         </div>
+      </div>
+      <div className="hover:bg-[#221e1d] rounded-xl  h-auto mt-5">
+        {/* left */}
+         <div className="font-poppins text-white text-3xl m-4 font-semibold text-start">
+         Hackathons and Innovation
+         </div>
+         <div className="text-[#a2a2a7] text-lg m-4 font-poppins text-start">
+  <p>
+  I embrace challenges that push creativity and technology.
+  </p>
+  <ul className="list-disc pl-5 m-4">
+    <li>
+      <strong>Walmart Sparkathon:</strong>  Built an immersive virtual store with Next.js and Three.js.
+    </li>
+    <li className="m-4">
+      <strong>Gen AI Google Hackathon:</strong>Innovated solutions blending AI with practical use cases.
+    </li>
+  </ul>
+  <p className="m-4">
+  These experiences enhanced my technical skills, teamwork, and problem-solving abilities.
+  </p>
+</div>
+
+         {/* right */}
+         <div>
+         
+         </div>
+      </div>
+      <div className="hover:bg-[#221e1d] rounded-xl  h-auto mt-6">
+        {/* left */}
+         <div className="font-poppins text-white text-3xl font-semibold text-start m-4">
+         My Web Development Journey
+         </div>
+         <div className="text-[#a2a2a7] text-lg mt-2 font-poppins text-start m-4">
+         My journey as a web developer has been a blend of learning and building impactful projects. From designing user-centric interfaces to implementing robust backend systems, I have developed a strong command over technologies like Next.js, Tailwind CSS, and Node.js.
+         </div>
+         {/* right */}
+         <div>
+         
+         </div>
+      </div>
+
+      <div className="hover:bg-[#221e1d]  h-auto mt-6 rounded-xl">
+        {/* left */}
+         <div className="font-poppins text-white text-3xl font-semibold text-start m-4">
+         Looking Ahead
+         </div>
+         <div className="text-[#a2a2a7] text-lg mt-2 font-poppins text-start m-4">
+         As I continue to grow, I aim to further expand my expertise in full-stack development, embrace cutting-edge technologies, and contribute to projects that make a difference. My goal is to build a career where I can merge innovation with purpose, solving real-world problems through technology.
+         </div>
+         {/* right */}
+         <div>
+         
+         </div>
+      </div>
+    </div>
+    </div>
 </div>
   );
 };
